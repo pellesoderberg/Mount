@@ -99,3 +99,22 @@ a:hover {
   max-width: 34rem;
   max-height: 34rem;
 }
+/*SideBar */
+.brand button {
+  font-size: 3rem;
+  padding: 0.5rem;
+  border: none;
+  color: black;
+  cursor: pointer;
+  background: none;
+}
+.sidebar {
+  position: fixed;
+  transform: translateX(-30rem);
+  width: 30rem;
+  background-color: #f0f0f0;
+  height: 100%;
+}
+.sidebar.open {
+  transform: translateX(0);
+}
